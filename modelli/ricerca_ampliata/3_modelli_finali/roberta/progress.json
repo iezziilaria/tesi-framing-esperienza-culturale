@@ -1,0 +1,36 @@
+{
+  "status": "partial",
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 0.9972488711129374,
+      "seconds": 16.534780263900757
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.7568318883874523,
+      "seconds": 13.662219762802124
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.4661359702473256,
+      "seconds": 13.850319623947144
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.2395802089082661,
+      "seconds": 14.058847427368164
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.14598134703544982,
+      "seconds": 14.26846718788147
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.07064132092854203,
+      "seconds": 14.623682260513306
+    }
+  ],
+  "resume_note": "If interrupted, this fold restarts; completed folds remain saved."
+}

@@ -1,0 +1,44 @@
+{
+  "seed_test": 19,
+  "seed_test_cercato_tra": "0-199",
+  "quota_strumentale_gold": 0.14,
+  "quota_strumentale_test_ottenuta": 0.138,
+  "seed_val": 42,
+  "metodo": "StratifiedGroupKFold (scikit-learn), raggruppato per thread_id, stratificato per etichetta",
+  "test_solo_da": "gold (gold_id 1-800)",
+  "righe_scartate_per_leak_di_thread_col_test": 17,
+  "train": {
+    "n": 816,
+    "per_classe": {
+      "strumentale": 152,
+      "intrinseco": 271,
+      "ambiguo": 393
+    },
+    "per_fonte": {
+      "gold": 535,
+      "pilot": 71,
+      "extra": 210
+    }
+  },
+  "val": {
+    "n": 252,
+    "per_classe": {
+      "strumentale": 66,
+      "intrinseco": 89,
+      "ambiguo": 97
+    },
+    "per_fonte": {
+      "gold": 106,
+      "pilot": 12,
+      "extra": 134
+    }
+  },
+  "test": {
+    "n": 159,
+    "per_classe": {
+      "strumentale": 22,
+      "intrinseco": 62,
+      "ambiguo": 75
+    }
+  }
+}

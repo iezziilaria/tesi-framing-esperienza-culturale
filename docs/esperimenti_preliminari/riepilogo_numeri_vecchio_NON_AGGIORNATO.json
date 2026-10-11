@@ -1,0 +1,74 @@
+{
+  "corpus": {
+    "commenti": 30035,
+    "thread": 1265,
+    "per_tipo_commenti": {
+      "generale": 29106,
+      "meta_manuale": 929
+    },
+    "per_tipo_thread": {
+      "generale": 1254,
+      "meta_manuale": 11
+    },
+    "parole_min": 6,
+    "parole_max": 1525,
+    "parole_mediana": 53,
+    "parole_media": 81.35,
+    "candidato_framing": 838,
+    "candidato_framing_perc": 2.79,
+    "thread_manuali": [
+      "12om7tc",
+      "1pl1co2",
+      "1r9u8mo",
+      "1u0x1n8",
+      "1whxyr3",
+      "ftrfyh",
+      "gcuobx",
+      "kbjz20",
+      "nsthax",
+      "sbgutx",
+      "w5rpoq"
+    ]
+  },
+  "campionamento_14_settembre": {
+    "gold_commenti": 800,
+    "gold_thread": 353,
+    "livelli_gold": {
+      "1": 224,
+      "2": 576
+    },
+    "livelli_pilot": {
+      "1": 63,
+      "2": 37
+    }
+  },
+  "gold_annotato": {
+    "commenti": 800,
+    "thread": 353,
+    "per_tipo_thread": {
+      "meta_manuale": 264,
+      "generale": 536
+    },
+    "candidato_framing_perc": 70.5,
+    "sostituiti_a_mano_rispetto_al_campionamento": 48,
+    "fuori_corpus": 1,
+    "parole_mediana": 109.0
+  },
+  "classi_gold_annotatore_A": {
+    "intrinseco": 294,
+    "ambiguo": 385,
+    "strumentale": 121
+  },
+  "motivi_ambiguo_gold_A": {
+    "A2": 287,
+    "A4": 14,
+    "A3": 72,
+    "A1": 8,
+    "A5": 4
+  },
+  "classi_pilot_finali": {
+    "intrinseco": 46,
+    "ambiguo": 43,
+    "strumentale": 11
+  }
+}

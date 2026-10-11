@@ -1,0 +1,51 @@
+Esperimento preliminare (non e' la pipeline finale della tesi).
+
+scripts/               gli script usati finora
+  10-13                versione di prima: pool misto gold + pilot + extra, validation e k-fold sul pool
+  20-24 + cv_gold_*    primo tentativo del nuovo protocollo (CV solo sul gold), con il confronto
+                       con/senza r/movies (22) e le regole (23) che hanno portato a tenere r/movies
+modelli/               risultati e split di 10-13: test 159, train 816, val 252, baseline e transformer
+modelli_cv_gold/       risultati di 20-24: fold, CV con e senza r/movies (macro-F1 media 0,647 e 0,650)
+
+Per rifare uno di questi esperimenti: copiare gli script in scripts/ (i percorsi sono relativi
+alla cartella del progetto) e la cartella dei dati al suo posto.
+Il test (159 commenti) e' stato usato in questi esperimenti: va dichiarato in tesi.
+
+--- Risultati dell'esperimento 1 (pool misto), dalla copia di sicurezza ---
+Esperimento 1 (protocollo di prima): pool misto gold + pilot + extra, validation e k-fold sul pool, test 159.
+Copia di sicurezza fatta prima di rifare gli esperimenti col nuovo protocollo (cartella modelli_cv_gold/).
+Gli script 10-13 non sono stati modificati e riproducono questi risultati.
+
+baseline (logistic_regression): macro-F1 test 0.604; CV 5 fold sul pool: 0.525
+transformer: macro-F1 test 0.610 (epoca scelta 6); CV 5 fold sul pool: 0.661 +/- 0.021
+pool train+val: 1068; test: 159
+
+
+--- Regola usata per tenere r/movies, e documentazione disponibile ---
+La regola e' scritta nel docstring di scripts/23_cv_gold_applica_regole.py. Le date di modifica dei file
+sono indicative, non una prova (si possono cambiare): una traccia piu' solida e' il messaggio originale
+della conversazione di lavoro, salvato in traccia_regola_conversazione.txt, che contiene la regola ai
+punti 6-7 e porta la data 3/10/2026 alle 15:18 (ora italiana), cioe' prima del primo risultato di
+cross-validazione (16:09 nello stesso registro). Anche il registro e' tenuto dall'app e non e' una prova
+notarile. Questo LEGGIMI e' stato scritto dopo, come documentazione, e non va letto come prova.
+
+  delta = macro-F1 media dei 5 fold con r/movies - macro-F1 media dei 5 fold senza r/movies
+          (transformer, macro-F1 di ogni fold alla sua epoca migliore)
+  sigma = deviazione standard (ddof=1) delle macro-F1 dei 5 fold senza r/movies
+  si tiene r/movies se delta >= -sigma
+
+Altre due regole nello stesso file: tra Logistic Regression e SVM vince la macro-F1 media piu' alta
+nei 5 fold; le epoche del modello finale sono la mediana delle epoche migliori dei 5 fold.
+
+Risultati (modelli_cv_gold/cv/<condizione>/transformer_cv.json e baseline_cv.json):
+  transformer con r/movies    media 0,647 (std 0,065)   epoche migliori 3, 2, 6, 5, 5 -> mediana 5
+  transformer senza r/movies  media 0,650 (std 0,038)   epoche migliori 4, 6, 4, 6, 5 -> mediana 5
+  delta -0,003; sigma (ddof=1) 0,043; soglia -0,043  ->  r/movies si tiene
+  baseline con r/movies       Logistic Regression 0,554   SVM lineare 0,538
+  baseline senza r/movies     Logistic Regression 0,554   SVM lineare 0,522
+La regola non e' stata applicata dallo script 23 (non e' stato lanciato): le cifre sono state calcolate
+a mano dai file dei risultati. I fold usati sono quelli di questo esperimento (seme 82).
+
+
+--- Nota (11/10/2026) ---
+14_controllo_rmovies_pesi.py: script scritto per ripetere il controllo su r/movies e sui pesi di classe con il protocollo finale. Provato solo con --prova, non eseguito per intero e non usato per nessun risultato della tesi. Per usarlo copiarlo in scripts/ (i percorsi sono relativi alla cartella del progetto).

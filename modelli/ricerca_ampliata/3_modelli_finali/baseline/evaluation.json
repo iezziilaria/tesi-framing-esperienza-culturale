@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "final_manifest_hash": "99f5793fe887719f6da7abf6cc6d8d666a97f4018f44ea9c9f34ef7b7b9f4ae9",
+    "selected": {
+      "family": "logistic_regression",
+      "C": 1.0,
+      "mean_macro_f1": 0.5543311689850304,
+      "fold_std": 0.0662783422146273,
+      "fold_scores": [
+        0.6589225589225589,
+        0.53837054529609,
+        0.5512444544702609,
+        0.5483610046828438,
+        0.4747572815533981
+      ]
+    },
+    "test_hash": "adc29fbddd82df5f5a4a7a85502680d2115cb42da5b265512c919a4b82cd2141",
+    "seed": 42,
+    "test_note": "The existing test set was already used in preliminary experiments. It is not a retrospectively untouched holdout."
+  },
+  "report": {
+    "strumentale": {
+      "precision": 0.5384615384615384,
+      "recall": 0.3181818181818182,
+      "f1-score": 0.4,
+      "support": 22.0
+    },
+    "intrinseco": {
+      "precision": 0.6153846153846154,
+      "recall": 0.7741935483870968,
+      "f1-score": 0.6857142857142857,
+      "support": 62.0
+    },
+    "ambiguo": {
+      "precision": 0.7647058823529411,
+      "recall": 0.6933333333333334,
+      "f1-score": 0.7272727272727273,
+      "support": 75.0
+    },
+    "accuracy": 0.6729559748427673,
+    "macro avg": {
+      "precision": 0.6395173453996983,
+      "recall": 0.5952362333007494,
+      "f1-score": 0.6043290043290044,
+      "support": 159.0
+    },
+    "weighted avg": {
+      "precision": 0.6751757306696263,
+      "recall": 0.6729559748427673,
+      "f1-score": 0.6657845299354733,
+      "support": 159.0
+    }
+  },
+  "training_rows": 1068,
+  "test_rows": 159,
+  "training_history": [],
+  "device": "Tesla T4"
+}

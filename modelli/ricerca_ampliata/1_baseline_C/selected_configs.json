@@ -1,0 +1,49 @@
+{
+  "manifest_hash": "e183ef69833f6fc8712b1c2a3e579c4b9da2c4b05cb132132c59f0499b19a741",
+  "data_hashes": {
+    "dev.csv": "6fe356d61b30900f4908e12b178f352b8ffe491f5aaf19d4e88e53fdcc171cab",
+    "supplementare.csv": "89f336b4f36691c1401ba9c8c06447c33231b61631d02ac3fbbcafbcc506ccea"
+  },
+  "selected": {
+    "logistic_regression": {
+      "family": "logistic_regression",
+      "C": 1.0,
+      "mean_macro_f1": 0.5543311689850304,
+      "fold_std": 0.0662783422146273,
+      "fold_scores": [
+        0.6589225589225589,
+        0.53837054529609,
+        0.5512444544702609,
+        0.5483610046828438,
+        0.4747572815533981
+      ]
+    },
+    "linear_svm": {
+      "family": "linear_svm",
+      "C": 1.0,
+      "mean_macro_f1": 0.5377459882292933,
+      "fold_std": 0.06943666643674842,
+      "fold_scores": [
+        0.6464426877470356,
+        0.5004516711833785,
+        0.5579737335834897,
+        0.5190672668167041,
+        0.46479458181585837
+      ]
+    }
+  },
+  "overall_baseline": {
+    "family": "logistic_regression",
+    "C": 1.0,
+    "mean_macro_f1": 0.5543311689850304,
+    "fold_std": 0.0662783422146273,
+    "fold_scores": [
+      0.6589225589225589,
+      0.53837054529609,
+      0.5512444544702609,
+      0.5483610046828438,
+      0.4747572815533981
+    ]
+  },
+  "note": "CV scores were used for selection and are development estimates."
+}

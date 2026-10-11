@@ -1,0 +1,168 @@
+{
+  "status": "partial",
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 1.0903812008991576,
+      "seconds": 12.086670160293579,
+      "macro_f1": 0.43804098215862924,
+      "accuracy": 0.5766423357664233,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3333333333333333,
+          "recall": 0.047619047619047616,
+          "f1-score": 0.08333333333333333,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5576923076923077,
+          "recall": 0.58,
+          "f1-score": 0.5686274509803921,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.5975609756097561,
+          "recall": 0.7424242424242424,
+          "f1-score": 0.6621621621621622,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.8334662208431646,
+      "seconds": 12.175670623779297,
+      "macro_f1": 0.5121741755648893,
+      "accuracy": 0.5474452554744526,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.25,
+          "recall": 0.47619047619047616,
+          "f1-score": 0.32786885245901637,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5909090909090909,
+          "recall": 0.52,
+          "f1-score": 0.5531914893617021,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.7358490566037735,
+          "recall": 0.5909090909090909,
+          "f1-score": 0.6554621848739496,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.5613124213720623,
+      "seconds": 12.160891056060791,
+      "macro_f1": 0.5396407978806296,
+      "accuracy": 0.5547445255474452,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3125,
+          "recall": 0.7142857142857143,
+          "f1-score": 0.43478260869565216,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5645161290322581,
+          "recall": 0.7,
+          "f1-score": 0.625,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.9629629629629629,
+          "recall": 0.3939393939393939,
+          "f1-score": 0.5591397849462365,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.3602382457047178,
+      "seconds": 12.164130210876465,
+      "macro_f1": 0.6091905013849553,
+      "accuracy": 0.6423357664233577,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.38235294117647056,
+          "recall": 0.6190476190476191,
+          "f1-score": 0.4727272727272727,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.6904761904761905,
+          "recall": 0.58,
+          "f1-score": 0.6304347826086957,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.7540983606557377,
+          "recall": 0.696969696969697,
+          "f1-score": 0.7244094488188977,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.2572277709188169,
+      "seconds": 12.147371053695679,
+      "macro_f1": 0.6233583189185726,
+      "accuracy": 0.6642335766423357,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.45454545454545453,
+          "recall": 0.47619047619047616,
+          "f1-score": 0.46511627906976744,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5774647887323944,
+          "recall": 0.82,
+          "f1-score": 0.6776859504132231,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.9090909090909091,
+          "recall": 0.6060606060606061,
+          "f1-score": 0.7272727272727273,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.17704074163185923,
+      "seconds": 12.150128602981567,
+      "macro_f1": 0.6041971438523163,
+      "accuracy": 0.6496350364963503,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.37037037037037035,
+          "recall": 0.47619047619047616,
+          "f1-score": 0.4166666666666667,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.6,
+          "recall": 0.72,
+          "f1-score": 0.6545454545454545,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.86,
+          "recall": 0.6515151515151515,
+          "f1-score": 0.7413793103448276,
+          "support": 66.0
+        }
+      }
+    }
+  ],
+  "resume_note": "If interrupted, this fold restarts; completed folds remain saved."
+}

@@ -1,0 +1,44 @@
+{
+  "creato_il": "2026-10-03T15:36:09",
+  "seed_fold": 82,
+  "seed_modelli": 42,
+  "n_fold": 5,
+  "seed_fold_cercato_tra": "0-199 (solo etichette e thread, nessuna previsione)",
+  "migliori_cinque_semi": [
+    {
+      "seed": 82,
+      "scarto_max_dalle_proporzioni": 0.033,
+      "fold_min": 117,
+      "fold_max": 145
+    },
+    {
+      "seed": 199,
+      "scarto_max_dalle_proporzioni": 0.046,
+      "fold_min": 112,
+      "fold_max": 160
+    },
+    {
+      "seed": 183,
+      "scarto_max_dalle_proporzioni": 0.049,
+      "fold_min": 100,
+      "fold_max": 152
+    },
+    {
+      "seed": 22,
+      "scarto_max_dalle_proporzioni": 0.052,
+      "fold_min": 108,
+      "fold_max": 156
+    },
+    {
+      "seed": 124,
+      "scarto_max_dalle_proporzioni": 0.064,
+      "fold_min": 104,
+      "fold_max": 162
+    }
+  ],
+  "metodo": "StratifiedGroupKFold (scikit-learn), shuffle, raggruppato per thread_id, stratificato per etichetta",
+  "dati_da": "modelli/train.csv + modelli/val.csv (solo lettura); test = modelli/test.csv",
+  "gold_sviluppo": 641,
+  "pilot": 83,
+  "extra": 344
+}

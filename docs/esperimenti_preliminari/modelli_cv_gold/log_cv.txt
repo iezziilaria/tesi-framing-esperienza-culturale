@@ -1,0 +1,140 @@
+dispositivo: cpu   condizione: con_rmovies
+
+--- fold 1/5 ---
+/Users/ilariaiezzi_/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 1 epoca 1/6   loss 1.079   macro-F1 val 0.424   (237s)
+    fold 1 epoca 2/6   loss 0.825   macro-F1 val 0.731   (273s)
+    fold 1 epoca 3/6   loss 0.606   macro-F1 val 0.743   (286s)
+    fold 1 epoca 4/6   loss 0.439   macro-F1 val 0.738   (264s)
+    fold 1 epoca 5/6   loss 0.314   macro-F1 val 0.711   (261s)
+    fold 1 epoca 6/6   loss 0.244   macro-F1 val 0.730   (262s)
+  fold 1: macro-F1 migliore 0.743 (epoca 3)   26.4 min
+
+--- fold 2/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+ripartenza: fold gia' fatti ['1']
+dispositivo: cpu   condizione: con_rmovies
+
+--- fold 2/5 ---
+/Users/ilariaiezzi_/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 2 epoca 1/6   loss 1.058   macro-F1 val 0.506   (284s)
+    fold 2 epoca 2/6   loss 0.798   macro-F1 val 0.667   (259s)
+    fold 2 epoca 3/6   loss 0.584   macro-F1 val 0.601   (287s)
+    fold 2 epoca 4/6   loss 0.426   macro-F1 val 0.647   (323s)
+    fold 2 epoca 5/6   loss 0.331   macro-F1 val 0.645   (331s)
+    fold 2 epoca 6/6   loss 0.251   macro-F1 val 0.663   (326s)
+  fold 2: macro-F1 migliore 0.667 (epoca 2)   30.2 min
+
+--- fold 3/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 3 epoca 1/6   loss 1.083   macro-F1 val 0.553   (380s)
+    fold 3 epoca 2/6   loss 0.857   macro-F1 val 0.645   (336s)
+    fold 3 epoca 3/6   loss 0.635   macro-F1 val 0.652   (313s)
+    fold 3 epoca 4/6   loss 0.454   macro-F1 val 0.632   (289s)
+    fold 3 epoca 5/6   loss 0.326   macro-F1 val 0.677   (292s)
+    fold 3 epoca 6/6   loss 0.260   macro-F1 val 0.679   (303s)
+  fold 3: macro-F1 migliore 0.679 (epoca 6)   31.9 min
+
+--- fold 4/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 4 epoca 1/6   loss 1.088   macro-F1 val 0.355   (310s)
+    fold 4 epoca 2/6   loss 0.827   macro-F1 val 0.468   (462s)
+    fold 4 epoca 3/6   loss 0.619   macro-F1 val 0.533   (339s)
+    fold 4 epoca 4/6   loss 0.443   macro-F1 val 0.537   (252s)
+    fold 4 epoca 5/6   loss 0.343   macro-F1 val 0.570   (284s)
+    fold 4 epoca 6/6   loss 0.263   macro-F1 val 0.546   (324s)
+  fold 4: macro-F1 migliore 0.570 (epoca 5)   32.9 min
+
+--- fold 5/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 5 epoca 1/6   loss 1.085   macro-F1 val 0.561   (264s)
+    fold 5 epoca 2/6   loss 0.807   macro-F1 val 0.561   (275s)
+    fold 5 epoca 3/6   loss 0.597   macro-F1 val 0.534   (331s)
+    fold 5 epoca 4/6   loss 0.440   macro-F1 val 0.560   (327s)
+    fold 5 epoca 5/6   loss 0.339   macro-F1 val 0.578   (298s)
+    fold 5 epoca 6/6   loss 0.280   macro-F1 val 0.565   (279s)
+  fold 5: macro-F1 migliore 0.578 (epoca 5)   29.6 min
+
+--- transformer, 5 fold sul gold, condizione con_rmovies ---
+macro-F1 per fold (epoca migliore)   [0.7427, 0.6673, 0.6786, 0.5702, 0.5777]
+media                                0.647 (+/- 0.065)
+epoche migliori nei fold             [3, 2, 6, 5, 5]   -> mediana 5
+macro-F1 media alla epoca mediana    0.636
+
+scritto in /Users/ilariaiezzi_/Desktop/TESI_Framing_esperienza_culturale/modelli_cv_gold/cv/con_rmovies/transformer_cv.json
+dispositivo: cpu   condizione: senza_rmovies
+
+--- fold 1/5 ---
+/Users/ilariaiezzi_/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 1 epoca 1/6   loss 1.088   macro-F1 val 0.293   (210s)
+    fold 1 epoca 2/6   loss 0.899   macro-F1 val 0.617   (214s)
+    fold 1 epoca 3/6   loss 0.664   macro-F1 val 0.650   (207s)
+    fold 1 epoca 4/6   loss 0.492   macro-F1 val 0.706   (262s)
+    fold 1 epoca 5/6   loss 0.379   macro-F1 val 0.692   (272s)
+    fold 1 epoca 6/6   loss 0.299   macro-F1 val 0.701   (247s)
+  fold 1: macro-F1 migliore 0.706 (epoca 4)   23.6 min
+
+--- fold 2/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 2 epoca 1/6   loss 1.096   macro-F1 val 0.388   (224s)
+    fold 2 epoca 2/6   loss 0.912   macro-F1 val 0.670   (219s)
+    fold 2 epoca 3/6   loss 0.702   macro-F1 val 0.623   (218s)
+    fold 2 epoca 4/6   loss 0.512   macro-F1 val 0.647   (220s)
+    fold 2 epoca 5/6   loss 0.410   macro-F1 val 0.648   (338s)
+    fold 2 epoca 6/6   loss 0.311   macro-F1 val 0.675   (235s)
+  fold 2: macro-F1 migliore 0.675 (epoca 6)   24.3 min
+
+--- fold 3/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 3 epoca 1/6   loss 1.098   macro-F1 val 0.219   (515s)
+    fold 3 epoca 2/6   loss 0.931   macro-F1 val 0.515   (371s)
+    fold 3 epoca 3/6   loss 0.680   macro-F1 val 0.543   (215s)
+    fold 3 epoca 4/6   loss 0.533   macro-F1 val 0.626   (214s)
+    fold 3 epoca 5/6   loss 0.410   macro-F1 val 0.595   (212s)
+    fold 3 epoca 6/6   loss 0.315   macro-F1 val 0.596   (214s)
+  fold 3: macro-F1 migliore 0.626 (epoca 4)   29.0 min
+
+--- fold 4/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 4 epoca 1/6   loss 1.095   macro-F1 val 0.515   (219s)
+    fold 4 epoca 2/6   loss 0.899   macro-F1 val 0.542   (232s)
+    fold 4 epoca 3/6   loss 0.637   macro-F1 val 0.580   (229s)
+    fold 4 epoca 4/6   loss 0.478   macro-F1 val 0.578   (195s)
+    fold 4 epoca 5/6   loss 0.353   macro-F1 val 0.606   (190s)
+    fold 4 epoca 6/6   loss 0.291   macro-F1 val 0.650   (187s)
+  fold 4: macro-F1 migliore 0.650 (epoca 6)   20.9 min
+
+--- fold 5/5 ---
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at distilroberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    fold 5 epoca 1/6   loss 1.100   macro-F1 val 0.423   (182s)
+    fold 5 epoca 2/6   loss 0.883   macro-F1 val 0.559   (184s)
+    fold 5 epoca 3/6   loss 0.678   macro-F1 val 0.521   (189s)
+    fold 5 epoca 4/6   loss 0.528   macro-F1 val 0.572   (193s)
+    fold 5 epoca 5/6   loss 0.396   macro-F1 val 0.595   (204s)
+    fold 5 epoca 6/6   loss 0.329   macro-F1 val 0.592   (207s)
+  fold 5: macro-F1 migliore 0.595 (epoca 5)   19.4 min
+
+--- transformer, 5 fold sul gold, condizione senza_rmovies ---
+macro-F1 per fold (epoca migliore)   [0.7058, 0.6751, 0.6261, 0.6499, 0.5952]
+media                                0.650 (+/- 0.038)
+epoche migliori nei fold             [4, 6, 4, 6, 5]   -> mediana 5
+macro-F1 media alla epoca mediana    0.627
+
+scritto in /Users/ilariaiezzi_/Desktop/TESI_Framing_esperienza_culturale/modelli_cv_gold/cv/senza_rmovies/transformer_cv.json

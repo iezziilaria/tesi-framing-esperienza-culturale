@@ -1,0 +1,25 @@
+{
+  "seed_fold": 82,
+  "seed_fold_cercato_tra": "0-199",
+  "scarto_max_dalle_proporzioni": 0.033,
+  "metodo": "StratifiedGroupKFold (scikit-learn), raggruppato per thread_id, stratificato per etichetta",
+  "test": {
+    "n": 159,
+    "per_classe": {
+      "strumentale": 22,
+      "intrinseco": 62,
+      "ambiguo": 75
+    }
+  },
+  "sviluppo": {
+    "n": 641,
+    "per_classe": {
+      "strumentale": 90,
+      "intrinseco": 221,
+      "ambiguo": 330
+    }
+  },
+  "pilot_usabile": 83,
+  "pilot_scartato_per_thread_del_test": 17,
+  "extra": 344
+}

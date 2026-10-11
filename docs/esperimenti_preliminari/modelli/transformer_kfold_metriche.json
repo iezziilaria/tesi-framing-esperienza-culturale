@@ -1,0 +1,16 @@
+{
+  "modello": "distilroberta-base",
+  "fold": 5,
+  "epoche_per_fold": 6,
+  "macro_f1_per_fold": [
+    0.696,
+    0.64,
+    0.638,
+    0.671,
+    0.657
+  ],
+  "macro_f1_media": 0.6605887371379124,
+  "macro_f1_std": 0.021284118251182354,
+  "minuti_totali": 1355.5,
+  "confronto": "vedi anche transformer_metriche.json (modello finale sul pool intero) e baseline_tfidf_metriche.json (cross-validazione della baseline: 0.570 +/- 0.045)"
+}

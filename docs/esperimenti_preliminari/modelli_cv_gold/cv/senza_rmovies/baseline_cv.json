@@ -1,0 +1,313 @@
+{
+  "condizione": "senza_rmovies",
+  "seed_modelli": 42,
+  "n_fold": 5,
+  "metrica_primaria": "macro-F1 (media sui fold)",
+  "modelli": {
+    "logistic_regression": {
+      "macro_f1_per_fold": [
+        0.6301,
+        0.5461,
+        0.5381,
+        0.5464,
+        0.5098
+      ],
+      "media": 0.5540647811710551,
+      "std": 0.04029027022159975,
+      "std_ddof1": 0.045045891523666275,
+      "report_validation_aggregata": {
+        "strumentale": {
+          "precision": 0.46938775510204084,
+          "recall": 0.25555555555555554,
+          "f1-score": 0.33093525179856115,
+          "support": 90.0
+        },
+        "intrinseco": {
+          "precision": 0.5637065637065637,
+          "recall": 0.6606334841628959,
+          "f1-score": 0.6083333333333333,
+          "support": 221.0
+        },
+        "ambiguo": {
+          "precision": 0.7117117117117117,
+          "recall": 0.7181818181818181,
+          "f1-score": 0.7149321266968326,
+          "support": 330.0
+        },
+        "accuracy": 0.6333853354134166,
+        "macro avg": {
+          "precision": 0.5816020101734387,
+          "recall": 0.5447902859667565,
+          "f1-score": 0.5514002372762423,
+          "support": 641.0
+        },
+        "weighted avg": {
+          "precision": 0.6266597712998425,
+          "recall": 0.6333853354134166,
+          "f1-score": 0.6242643387495974,
+          "support": 641.0
+        }
+      },
+      "matrice_confusione_aggregata": {
+        "categorie": [
+          "strumentale",
+          "intrinseco",
+          "ambiguo"
+        ],
+        "valori": [
+          [
+            23,
+            30,
+            37
+          ],
+          [
+            16,
+            146,
+            59
+          ],
+          [
+            10,
+            83,
+            237
+          ]
+        ]
+      }
+    },
+    "svm_lineare": {
+      "macro_f1_per_fold": [
+        0.6297,
+        0.4236,
+        0.524,
+        0.5675,
+        0.4639
+      ],
+      "media": 0.5217517911451363,
+      "std": 0.07311220815001006,
+      "std_ddof1": 0.08174193370426831,
+      "report_validation_aggregata": {
+        "strumentale": {
+          "precision": 0.42857142857142855,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.24,
+          "support": 90.0
+        },
+        "intrinseco": {
+          "precision": 0.5775862068965517,
+          "recall": 0.6063348416289592,
+          "f1-score": 0.5916114790286976,
+          "support": 221.0
+        },
+        "ambiguo": {
+          "precision": 0.6684491978609626,
+          "recall": 0.7575757575757576,
+          "f1-score": 0.7102272727272727,
+          "support": 330.0
+        },
+        "accuracy": 0.6224648985959438,
+        "macro avg": {
+          "precision": 0.5582022777763143,
+          "recall": 0.5101924219571278,
+          "f1-score": 0.5139462505853234,
+          "support": 641.0
+        },
+        "weighted avg": {
+          "precision": 0.603441833993267,
+          "recall": 0.6224648985959438,
+          "f1-score": 0.6033091058741687,
+          "support": 641.0
+        }
+      },
+      "matrice_confusione_aggregata": {
+        "categorie": [
+          "strumentale",
+          "intrinseco",
+          "ambiguo"
+        ],
+        "valori": [
+          [
+            15,
+            25,
+            50
+          ],
+          [
+            13,
+            134,
+            74
+          ],
+          [
+            7,
+            73,
+            250
+          ]
+        ]
+      }
+    }
+  },
+  "composizione_per_fold": [
+    {
+      "fold": 1,
+      "condizione": "senza_rmovies",
+      "gold_training": 518,
+      "gold_validation": 123,
+      "pilot_disponibili": 83,
+      "pilot_esclusi_per_thread": 7,
+      "pilot_usati": 76,
+      "extra_disponibili": 105,
+      "extra_esclusi_per_thread": 0,
+      "extra_usati": 105,
+      "extra_rmovies_usati": 0,
+      "extra_truefilm_usati": 105,
+      "training_totale": 699,
+      "classi_training": {
+        "strumentale": 105,
+        "intrinseco": 234,
+        "ambiguo": 360
+      },
+      "classi_validation": {
+        "strumentale": 14,
+        "intrinseco": 44,
+        "ambiguo": 65
+      },
+      "thread_unici_training": 246,
+      "thread_unici_validation": 59,
+      "shared_threads_train_validation": 0,
+      "test_examples_in_training": 0,
+      "test_examples_in_validation": 0,
+      "test_threads_in_training": 0,
+      "test_threads_in_validation": 0,
+      "validation_solo_gold": true
+    },
+    {
+      "fold": 2,
+      "condizione": "senza_rmovies",
+      "gold_training": 496,
+      "gold_validation": 145,
+      "pilot_disponibili": 83,
+      "pilot_esclusi_per_thread": 12,
+      "pilot_usati": 71,
+      "extra_disponibili": 105,
+      "extra_esclusi_per_thread": 0,
+      "extra_usati": 105,
+      "extra_rmovies_usati": 0,
+      "extra_truefilm_usati": 105,
+      "training_totale": 672,
+      "classi_training": {
+        "strumentale": 94,
+        "intrinseco": 232,
+        "ambiguo": 346
+      },
+      "classi_validation": {
+        "strumentale": 23,
+        "intrinseco": 49,
+        "ambiguo": 73
+      },
+      "thread_unici_training": 251,
+      "thread_unici_validation": 54,
+      "shared_threads_train_validation": 0,
+      "test_examples_in_training": 0,
+      "test_examples_in_validation": 0,
+      "test_threads_in_training": 0,
+      "test_threads_in_validation": 0,
+      "validation_solo_gold": true
+    },
+    {
+      "fold": 3,
+      "condizione": "senza_rmovies",
+      "gold_training": 522,
+      "gold_validation": 119,
+      "pilot_disponibili": 83,
+      "pilot_esclusi_per_thread": 8,
+      "pilot_usati": 75,
+      "extra_disponibili": 105,
+      "extra_esclusi_per_thread": 0,
+      "extra_usati": 105,
+      "extra_rmovies_usati": 0,
+      "extra_truefilm_usati": 105,
+      "training_totale": 702,
+      "classi_training": {
+        "strumentale": 102,
+        "intrinseco": 239,
+        "ambiguo": 361
+      },
+      "classi_validation": {
+        "strumentale": 17,
+        "intrinseco": 40,
+        "ambiguo": 62
+      },
+      "thread_unici_training": 242,
+      "thread_unici_validation": 63,
+      "shared_threads_train_validation": 0,
+      "test_examples_in_training": 0,
+      "test_examples_in_validation": 0,
+      "test_threads_in_training": 0,
+      "test_threads_in_validation": 0,
+      "validation_solo_gold": true
+    },
+    {
+      "fold": 4,
+      "condizione": "senza_rmovies",
+      "gold_training": 524,
+      "gold_validation": 117,
+      "pilot_disponibili": 83,
+      "pilot_esclusi_per_thread": 12,
+      "pilot_usati": 71,
+      "extra_disponibili": 105,
+      "extra_esclusi_per_thread": 0,
+      "extra_usati": 105,
+      "extra_rmovies_usati": 0,
+      "extra_truefilm_usati": 105,
+      "training_totale": 700,
+      "classi_training": {
+        "strumentale": 102,
+        "intrinseco": 239,
+        "ambiguo": 359
+      },
+      "classi_validation": {
+        "strumentale": 15,
+        "intrinseco": 38,
+        "ambiguo": 64
+      },
+      "thread_unici_training": 247,
+      "thread_unici_validation": 58,
+      "shared_threads_train_validation": 0,
+      "test_examples_in_training": 0,
+      "test_examples_in_validation": 0,
+      "test_threads_in_training": 0,
+      "test_threads_in_validation": 0,
+      "validation_solo_gold": true
+    },
+    {
+      "fold": 5,
+      "condizione": "senza_rmovies",
+      "gold_training": 504,
+      "gold_validation": 137,
+      "pilot_disponibili": 83,
+      "pilot_esclusi_per_thread": 24,
+      "pilot_usati": 59,
+      "extra_disponibili": 105,
+      "extra_esclusi_per_thread": 0,
+      "extra_usati": 105,
+      "extra_rmovies_usati": 0,
+      "extra_truefilm_usati": 105,
+      "training_totale": 668,
+      "classi_training": {
+        "strumentale": 94,
+        "intrinseco": 219,
+        "ambiguo": 355
+      },
+      "classi_validation": {
+        "strumentale": 21,
+        "intrinseco": 50,
+        "ambiguo": 66
+      },
+      "thread_unici_training": 257,
+      "thread_unici_validation": 48,
+      "shared_threads_train_validation": 0,
+      "test_examples_in_training": 0,
+      "test_examples_in_validation": 0,
+      "test_threads_in_training": 0,
+      "test_threads_in_validation": 0,
+      "validation_solo_gold": true
+    }
+  ]
+}

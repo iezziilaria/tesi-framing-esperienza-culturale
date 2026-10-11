@@ -1,0 +1,168 @@
+{
+  "commenti_corpus": 30035,
+  "commenti_esclusi": 894,
+  "gruppi": {
+    "generale": {
+      "commenti": 28534,
+      "thread": 1248,
+      "quote": {
+        "strumentale": 0.023550851615616458,
+        "intrinseco": 0.19569636223452724,
+        "ambiguo": 0.7807527861498563
+      },
+      "ic95": {
+        "strumentale": [
+          0.020393254789110422,
+          0.027223124025810074
+        ],
+        "intrinseco": [
+          0.1806331465850143,
+          0.21155390596851037
+        ],
+        "ambiguo": [
+          0.7643664410626128,
+          0.7964326878497588
+        ]
+      }
+    },
+    "meta_manuale": {
+      "commenti": 607,
+      "thread": 11,
+      "quote": {
+        "strumentale": 0.14332784184514002,
+        "intrinseco": 0.40691927512355847,
+        "ambiguo": 0.4497528830313015
+      },
+      "ic95": {
+        "strumentale": [
+          0.077455879857458,
+          0.23007176066640386
+        ],
+        "intrinseco": [
+          0.26363011445862383,
+          0.5561611902355282
+        ],
+        "ambiguo": [
+          0.30581320703653586,
+          0.6206425085874762
+        ]
+      }
+    }
+  },
+  "differenza_meta_meno_generale": {
+    "strumentale": {
+      "valore": 0.11977699022952357,
+      "ic95": [
+        0.05364316045703726,
+        0.2066936513478286
+      ]
+    },
+    "intrinseco": {
+      "valore": 0.21122291288903122,
+      "ic95": [
+        0.06643094847138166,
+        0.3594281938459405
+      ]
+    },
+    "ambiguo": {
+      "valore": -0.3309999031185548,
+      "ic95": [
+        -0.47400801712159524,
+        -0.16017477670306726
+      ]
+    }
+  },
+  "con_framing_strumentale_o_intrinseco": {
+    "quote": {
+      "generale": 0.2192472138501437,
+      "meta_manuale": 0.5502471169686984
+    },
+    "differenza": 0.33099990311855476,
+    "ic95_differenza": [
+      0.16017477670306723,
+      0.4740080171215951
+    ]
+  },
+  "thread_meta_manuale": {
+    "12om7tc": {
+      "commenti": 86,
+      "strumentale": 0.3023255813953488,
+      "intrinseco": 0.3372093023255814,
+      "ambiguo": 0.36046511627906974
+    },
+    "1pl1co2": {
+      "commenti": 85,
+      "strumentale": 0.08235294117647059,
+      "intrinseco": 0.7529411764705882,
+      "ambiguo": 0.16470588235294117
+    },
+    "1r9u8mo": {
+      "commenti": 91,
+      "strumentale": 0.0989010989010989,
+      "intrinseco": 0.5714285714285714,
+      "ambiguo": 0.32967032967032966
+    },
+    "1u0x1n8": {
+      "commenti": 42,
+      "strumentale": 0.40476190476190477,
+      "intrinseco": 0.16666666666666666,
+      "ambiguo": 0.42857142857142855
+    },
+    "1whxyr3": {
+      "commenti": 26,
+      "strumentale": 0.3076923076923077,
+      "intrinseco": 0.5769230769230769,
+      "ambiguo": 0.11538461538461539
+    },
+    "ftrfyh": {
+      "commenti": 57,
+      "strumentale": 0.19298245614035087,
+      "intrinseco": 0.40350877192982454,
+      "ambiguo": 0.40350877192982454
+    },
+    "gcuobx": {
+      "commenti": 9,
+      "strumentale": 0.0,
+      "intrinseco": 0.3333333333333333,
+      "ambiguo": 0.6666666666666666
+    },
+    "kbjz20": {
+      "commenti": 52,
+      "strumentale": 0.057692307692307696,
+      "intrinseco": 0.4807692307692308,
+      "ambiguo": 0.46153846153846156
+    },
+    "nsthax": {
+      "commenti": 23,
+      "strumentale": 0.043478260869565216,
+      "intrinseco": 0.43478260869565216,
+      "ambiguo": 0.5217391304347826
+    },
+    "sbgutx": {
+      "commenti": 17,
+      "strumentale": 0.0,
+      "intrinseco": 0.058823529411764705,
+      "ambiguo": 0.9411764705882353
+    },
+    "w5rpoq": {
+      "commenti": 119,
+      "strumentale": 0.04201680672268908,
+      "intrinseco": 0.15126050420168066,
+      "ambiguo": 0.8067226890756303
+    }
+  },
+  "generale_per_candidato_framing": {
+    "False": {
+      "commenti": 28339,
+      "strumentale": 0.0232894597551078,
+      "intrinseco": 0.19481985955750025,
+      "ambiguo": 0.781890680687392
+    },
+    "True": {
+      "commenti": 195,
+      "strumentale": 0.06153846153846154,
+      "intrinseco": 0.3230769230769231,
+      "ambiguo": 0.6153846153846154
+    }
+  }
+}

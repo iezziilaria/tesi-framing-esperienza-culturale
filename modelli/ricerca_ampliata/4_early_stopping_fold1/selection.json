@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "best_epoch": 8,
+  "best_validation_macro_f1": 0.7373570751503303,
+  "epochs_run": 13,
+  "stopped_early": true,
+  "training_rows": 938,
+  "validation_rows": 123,
+  "settings": {
+    "validation_fold": 1,
+    "max_epochs": 30,
+    "patience": 5,
+    "learning_rate": 5e-05,
+    "seed": 42,
+    "model_name": "roberta-base",
+    "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "batch_size": 16,
+    "max_length": 256,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.06,
+    "mixed_precision": true,
+    "weighted_loss": true,
+    "monitor": "validation_macro_f1",
+    "scheduler": "linear_over_max_epochs",
+    "exact_ties": "keep_earlier_epoch"
+  },
+  "checkpoint": "/kaggle/working/thesis_ml/results/roberta_holdout_d60d8f74320656ed/best_checkpoint",
+  "predictions_hash": "bd183445b7d8207aa7341ae9ad5211c4d8497756d6689410e2057184d8c1924d",
+  "note": "This checkpoint uses a held-out development fold; scores are validation estimates."
+}

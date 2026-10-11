@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "job": {
+    "family": "logistic_regression",
+    "C": 10.0,
+    "fold": 5,
+    "seed": 42
+  },
+  "epochs": [
+    {
+      "macro_f1": 0.46133880916489617,
+      "accuracy": 0.5255474452554745,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3125,
+          "recall": 0.23809523809523808,
+          "f1-score": 0.2702702702702703,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5102040816326531,
+          "recall": 0.5,
+          "f1-score": 0.5050505050505051,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.5833333333333334,
+          "recall": 0.6363636363636364,
+          "f1-score": 0.6086956521739131,
+          "support": 66.0
+        }
+      },
+      "epoch": 1
+    }
+  ],
+  "seconds": 0.8411128520965576,
+  "predictions_hash": "ddf8ac44741f21b521957438f880a057d469c5e631e20d3562293828e952ea92",
+  "training_rows": 907,
+  "validation_rows": 137
+}

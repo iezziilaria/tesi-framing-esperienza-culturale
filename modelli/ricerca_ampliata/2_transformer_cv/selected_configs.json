@@ -1,0 +1,55 @@
+{
+  "manifest_hash": "6ea88534ba4cca4395ca3319ffc2781df52310b6cec7d98af63896368b798b43",
+  "data_hashes": {
+    "dev.csv": "6fe356d61b30900f4908e12b178f352b8ffe491f5aaf19d4e88e53fdcc171cab",
+    "supplementare.csv": "89f336b4f36691c1401ba9c8c06447c33231b61631d02ac3fbbcafbcc506ccea"
+  },
+  "complete": true,
+  "selected": {
+    "roberta-base": {
+      "family": "roberta-base",
+      "learning_rate": 5e-05,
+      "epoch": 6,
+      "mean_macro_f1": 0.6794481639480395,
+      "fold_std": 0.08372627598291843,
+      "seed_std": 0.01943337666564572,
+      "fold_means": [
+        0.7349603252710203,
+        0.690336164303407,
+        0.767512841714841,
+        0.5514460299717602,
+        0.6529854584791686
+      ],
+      "seed_means": [
+        0.6599637222085318,
+        0.6988300697817152,
+        0.6795506998538711
+      ]
+    },
+    "distilroberta-base": {
+      "family": "distilroberta-base",
+      "learning_rate": 2e-05,
+      "epoch": 5,
+      "mean_macro_f1": 0.6379943988010973,
+      "fold_std": 0.06888081105869528,
+      "seed_std": 0.02730788975546932,
+      "fold_means": [
+        0.729122999781378,
+        0.6644472746639255,
+        0.6530850094902371,
+        0.5499164595986987,
+        0.5934002504712468
+      ],
+      "seed_means": [
+        0.6184066597157493,
+        0.6691882964054378,
+        0.6263882402821047
+      ]
+    }
+  },
+  "expected_models": [
+    "roberta-base",
+    "distilroberta-base"
+  ],
+  "note": "Epoch and hyperparameters were selected on CV; these are development scores."
+}

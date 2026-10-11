@@ -1,0 +1,99 @@
+{
+  "corpus": {
+    "commenti": 30035,
+    "thread": 1265,
+    "per_tipo_commenti": {
+      "generale": 29106,
+      "meta_manuale": 929
+    },
+    "per_tipo_thread": {
+      "generale": 1254,
+      "meta_manuale": 11
+    },
+    "parole_min": 6,
+    "parole_max": 1525,
+    "parole_mediana": 53,
+    "parole_media": 81.35,
+    "candidato_framing": 838,
+    "candidato_framing_perc": 2.79,
+    "thread_manuali": [
+      "12om7tc",
+      "1pl1co2",
+      "1r9u8mo",
+      "1u0x1n8",
+      "1whxyr3",
+      "ftrfyh",
+      "gcuobx",
+      "kbjz20",
+      "nsthax",
+      "sbgutx",
+      "w5rpoq"
+    ]
+  },
+  "campionamento_14_settembre": {
+    "gold_commenti": 800,
+    "gold_thread": 353,
+    "livelli_gold": {
+      "1": 224,
+      "2": 576
+    },
+    "livelli_pilot": {
+      "1": 63,
+      "2": 37
+    }
+  },
+  "gold_annotato": {
+    "commenti": 800,
+    "thread": 353,
+    "per_tipo_thread": {
+      "meta_manuale": 264,
+      "generale": 536
+    },
+    "candidato_framing_perc": 70.5,
+    "sostituiti_a_mano_rispetto_al_campionamento": 48,
+    "fuori_corpus": 1,
+    "parole_mediana": 109.0
+  },
+  "classi_gold_finali": {
+    "intrinseco": 283,
+    "ambiguo": 405,
+    "strumentale": 112
+  },
+  "motivi_ambiguo_gold_finali": {
+    "A2": 305,
+    "A4": 13,
+    "A3": 75,
+    "A1": 8,
+    "A5": 4
+  },
+  "classi_pilot_finali": {
+    "intrinseco": 46,
+    "ambiguo": 43,
+    "strumentale": 11
+  },
+  "split_sviluppo": {
+    "seed_fold": 82,
+    "seed_fold_cercato_tra": "0-199",
+    "scarto_max_dalle_proporzioni": 0.033,
+    "metodo": "StratifiedGroupKFold (scikit-learn), raggruppato per thread_id, stratificato per etichetta",
+    "test": {
+      "n": 159,
+      "per_classe": {
+        "strumentale": 22,
+        "intrinseco": 62,
+        "ambiguo": 75
+      }
+    },
+    "sviluppo": {
+      "n": 641,
+      "per_classe": {
+        "strumentale": 90,
+        "intrinseco": 221,
+        "ambiguo": 330
+      }
+    },
+    "pilot_usabile": 83,
+    "pilot_scartato_per_thread_del_test": 17,
+    "extra": 344
+  }
+}

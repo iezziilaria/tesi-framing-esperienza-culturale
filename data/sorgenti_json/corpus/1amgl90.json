@@ -1,0 +1,36 @@
+{
+  "post_id": "1amgl90",
+  "title": "Shots with transitions in old movies are way blurrier than the rest of the film?",
+  "commenti": [
+    {
+      "comment_id": "kpljog8",
+      "body": "It's because fades, dissolves, and optical effects require one additional step in printing, so they are one additional generation away from the original camera negative in quality. Each generation adds grain and loses clarity. Those restorations probably scanned the OCN for most shots, but scanned an IP or print for the opticals.",
+      "score": 48,
+      "parent_id": "t3_1amgl90"
+    },
+    {
+      "comment_id": "kpljpm2",
+      "body": ">I'm wondering if anyone has any insight into why this happens. My assumption is that the transfer process they used back in the day to create the transitions resulted in a lower quality print than the original negatives they re-scanned to get the regular sharp image for the majority of the film.\n\nThis video explains it: [https://www.youtube.com/watch?v=7doXkLEtQa0](https://www.youtube.com/watch?v=7doxkletqa0)\n\nbasically, dissolves required making copies of the original in an optical printer, which degraded the image quality.",
+      "score": 15,
+      "parent_id": "t3_1amgl90"
+    },
+    {
+      "comment_id": "kplpjhb",
+      "body": "A lot of movies before, say, 1980 used \"stock footage\" to deal with transitions.  That was footage owned by the studio showing, say, the plane landing at Heathrow Airport or whatever.  It saved on the cost of re-filming that same scene.",
+      "score": -16,
+      "parent_id": "t3_1amgl90"
+    },
+    {
+      "comment_id": "kplrh3y",
+      "body": "For some reason YouTube says the linked video is no longer available even though your comment is only an hour old. Could you tell me the title so I can go watch it?",
+      "score": 2,
+      "parent_id": "t1_kpljpm2"
+    },
+    {
+      "comment_id": "kpn13c3",
+      "body": "\n[The Cross Dissolve](https://www.youtube.com/watch?v=7doXkLEtQa0): Its history, process in film, and lots of interesting facts at [Pull My Focus\n](https://www.youtube.com/@PullMyFocus)",
+      "score": 6,
+      "parent_id": "t1_kplrh3y"
+    }
+  ]
+}

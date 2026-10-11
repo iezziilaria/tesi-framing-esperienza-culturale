@@ -1,0 +1,24 @@
+Traccia della regola su r/movies nel registro della conversazione di lavoro
+(file di registro dell'app: ~/.claude/projects/.../cec90844-...jsonl, riga 11828).
+
+Data e ora del messaggio: 2026-10-03T13:18:05.335Z (UTC; in Italia +2 ore, cioe' 3/10/2026 alle 15:18).
+Primo risultato di cross-validazione (fold 1) comparso nello stesso registro: 2026-10-03T14:09:11Z (16:09 in Italia).
+Il registro e' tenuto dall'app e non e' una prova notarile: indica solo che il testo della regola
+esisteva prima dei risultati. Testo del messaggio (estratto con la regola ai punti 6-7):
+
+Piano ufficiale (da approvare)**
+
+1. **Dati.** Gold 800 invariato. Test: gli stessi 159 (gli ID si leggono dal `test.csv` attuale). Sviluppo: i 641 commenti restanti. Materiale supplementare: pilot 83 (100 meno 17 con thread del test) più 344 extra.
+2. **Fold.** 5 fold sui 641, stratificati per le tre classi e raggruppati per thread, con seme fisso e fold salvati su file. Gli stessi fold per tutti i modelli e per entrambe le condizioni. Le dimensioni possono variare perché i thread restano interi.
+3. **In ogni fold.** Training: gli altri quattro fold del gold più gli extra più il pilot senza i thread della validation del fold e del test. Validation: solo gold.
+4. **Modelli.** TF-IDF con Logistic Regression e SVM, e DistilRoBERTa, con le configurazioni già sperimentate. Criterio principale: macro-F1 media sui fold, affiancata dalle metriche per classe.
+5. **Regola delle epoche, fissata ora.** Il modello finale si allena per la mediana delle epoche migliori dei cinque fold.
+6. **Due condizioni, stessi fold.** C1 con r/movies (105 + 239 extra) e C2 senza r/movies (solo i 105 di r/TrueFilm). Si parte da C1: se il tempo mancasse, almeno quella è completa.
+7. **Regola per r/movies, fissata ora (proposta):** si tiene r/movies se la macro-F1 media della CV con r/movies non è inferiore a quella senza di più di una deviazione standard dei fold; altrimenti si toglie. Puoi cambiarla adesso, non dopo i risultati.
+8. **Valutazione finale.** Si allena sui 641 più il supplementare della condizione scelta, con le epoche della regola, e si valuta sul test 159. Dichiareremo che il test era già stato usato, e non servirà più per decidere niente.
+9. **Controlli prima dei calcoli:** per ogni fold numero di commenti, percentuale per classe e thread condivisi tra training e validation (devono essere 0). Se non passano, non parte nulla.
+10. **Conservazione.** Copia della cartella `modelli/`, delle figure e dei tuoi screen con i risultati attuali in una cartella a parte (esperimento 1, pool misto); i nuovi risultati vanno in un'altra (esperimento 2).
+
+**Ordine di lancio quando esci:** controlli, baseline, k-fold C1, modello finale C1, k-fold C2, modello finale C2.
+
+Per partire servono tre cose da te: il via, la regola del punto 7 (ok o da cambiare) e se vuoi C2. Gli script li preparo solo dopo il tuo via esplicito, come file nuovi senza toccare quelli esistenti. Domani, con i risultati, finiamo anche §2.7 e capitolo 3.

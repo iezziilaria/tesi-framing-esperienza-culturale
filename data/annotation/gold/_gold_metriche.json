@@ -1,0 +1,75 @@
+{
+  "n_in_comune": 222,
+  "accordo_osservato": 0.8918918918918919,
+  "accordo_atteso": 0.36301842382923466,
+  "kappa_cohen": 0.830280635810531,
+  "kappa_ic95": [
+    0.7631709221783419,
+    0.8927398740691408
+  ],
+  "alpha_krippendorff": 0.8302004312065798,
+  "distribuzione_A_222": {
+    "intrinseco": 80,
+    "ambiguo": 97,
+    "strumentale": 45
+  },
+  "distribuzione_B_222": {
+    "intrinseco": 95,
+    "ambiguo": 88,
+    "strumentale": 39
+  },
+  "matrice_righe_A_colonne_B": {
+    "categorie": [
+      "strumentale",
+      "intrinseco",
+      "ambiguo"
+    ],
+    "valori": [
+      [
+        37,
+        1,
+        7
+      ],
+      [
+        0,
+        80,
+        0
+      ],
+      [
+        2,
+        14,
+        81
+      ]
+    ]
+  },
+  "accordo_specifico_per_classe": {
+    "strumentale": 0.8809523809523809,
+    "intrinseco": 0.9142857142857143,
+    "ambiguo": 0.8756756756756757
+  },
+  "disaccordi": 24,
+  "disaccordi_con_ambiguo": 23,
+  "disaccordi_per_coppia": {
+    "ambiguo / intrinseco": 14,
+    "ambiguo / strumentale": 9,
+    "intrinseco / strumentale": 1
+  },
+  "senza_ambiguo": {
+    "n": 118,
+    "accordo": 0.9915254237288136,
+    "kappa": 0.9804571050016563
+  },
+  "classi_800_annotatore_A": {
+    "intrinseco": 283,
+    "ambiguo": 405,
+    "strumentale": 112
+  },
+  "motivi_ambiguo_800_annotatore_A": {
+    "A2": 305,
+    "A4": 13,
+    "A3": 75,
+    "A1": 8,
+    "A5": 4
+  },
+  "ambiguo_senza_codice": 0
+}

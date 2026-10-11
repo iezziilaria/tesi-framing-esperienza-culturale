@@ -1,0 +1,102 @@
+{
+  "post_id": "17puows",
+  "title": "A more critical look at law enforcement in \"Se7en\".",
+  "commenti": [
+    {
+      "comment_id": "k87uhqz",
+      "body": "> FBI upholds the library history as a way of keeping a watch of the history of what kind of activities citizens are getting involved in with these books\n\nThis may not be the main point of your post, but privacy of patron records is something that librarians on the whole take very seriously, to the point that it's often optional for the patron as to whether borrowing history is recorded at all. Even with a cooperative staff, in pre-internet 1995 too it would have been a monumental task to capture all that information, some from paper-only records, and retain it \"just in case.\"\n\nThat said, especially from todays perspective it makes for a believable plot point that somehow the \"forces of domestic security\" have a back door to this information—that the makers of major cataloging software might have built in access that even staff wouldn't know about.",
+      "score": 21,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k87yqoh",
+      "body": "Some great points here, I've seen it a million times but never made the connection with Doe and Mills both buying information.\n\nI personally think in general the police are world-weary and cynical, partly as an element of the general world building of this incredibly bleak city - who wouldn't be after decades of working in that place? The most significant non-lead police character is the chief, and he radiates that energy to me.\n\nMills and Somerset both contrast with this in their own ways. We know Somerset is different from the very first scene (\"always these questions with you\" from the cynical cop, or some line like that) - he does care about the victims. But it's that very caring that's worn him down.\n\nMills is personally ambitious, but I do think he has an idealistic naivety too. True, he doesn't seem to be driven that much by helping victims say, but he has a beautiful home life, and seems to be genuinely moved and horrified by the aftermath of the killings. I personally don't see him as some gung-ho, gun-toting dude.\n\nFor me it's important he's humanised, because it makes the fact he's ultimately directly tied to the killings, and commits one of them himself, all the more bleak and horrifying. I don't think the end is his punishment for being too cocky and gung-ho, or indeed immoral in things like using the library data; it's clearly grotesquely out of proportion to those \"crimes\" if that's even what we call them.\n\nMeanwhile Somerset functions largely as the world-weary observer, providing a clear moral compass for the audience while being completely powerless to prevent or change anything. Again, I don't think personally that any of the events are moral come-uppance for his own trangressions. But it's an interesting observation.",
+      "score": 13,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k881j1i",
+      "body": "I get that and I do agree that's generally the entire point of the movie. It's about cynicism, apathy and idealism but just thought on focusing specifically how the police acts in questionable ways throughout the movie, even sometimes in ways that cannot just be explained by simple cynicism. \n\nI also don't think it's about them paying for their consequences of their actions and deserving it but I am just specifically focusing on how they do use very questionable methods to solve crime. Things even the film is aware is something the characters shouldn't be doing. And to an extent, part of that police corruption is what contributed to the death of Mills' wife because that's how he got to know about her to later use her to convince him further into becoming wrath.\n\nI also think while Mills does kinda care about how life is affected by these crimes like anyone else, he doesn't really care to understand or do anything about reducing these crimes from happening in the first place. He focuses on attacking the symptom rather than the cause and the city won't become any less bad as how it is by just catching John Doe. It's a much bigger problem than that and Mills cannot grapple with that idea. In a way, he seems to very nicely represent people who worry about things like school shootings whenever they happen but won't do anything about it other than to say that we should jail school shooters rather than do more systemic corrections like gun control and putting more value in treatment for mental health.",
+      "score": 5,
+      "parent_id": "t1_k87yqoh"
+    },
+    {
+      "comment_id": "k88cr9r",
+      "body": "> That said, especially from todays perspective it makes for a believable plot point that somehow the \"forces of domestic security\" have a back door to this information—that the makers of major cataloging software might have built in access that even staff wouldn't know about.\n\nI'm going off memory from 5+ years ago because I no longer work in the domain, but the same attitude toward privacy was reflected in the design of the several ILS systems I worked with as well (the main computer system that stores catalog & patron information). Each patron had to explicitly opt in to keeping borrowing history, or else it just was not kept in the DB. Of course, I wouldn't be privy to any FBI/NSA backdoors that might be there though.",
+      "score": 7,
+      "parent_id": "t1_k87uhqz"
+    },
+    {
+      "comment_id": "k88raeo",
+      "body": "I agree with your criticisms of Mills, but I don't agree that he's \"supposed to be the 'white knight' police detective in the film\".  I think the film intends for you to see Mills critically, along with several of the other gung-ho cops like the SWAT team.\n\nThe film both starts and ends with Somerset (he literally narrates the closing of the film), so to the extent that we're \"supposed to\" see things from any one viewpoint, I'd argue it's his.  He routinely remarks on Mills' naive or simplistic view, and often gently mocks Mills' lack of control or contemplation.\n\nAt the time of its release, general attitudes towards law enforcement (especially in media) were much friendlier to Mills' type of cop, and I think it would have been somewhat unusual how it implicitly criticizes him in favor of Somerset's calmer and wiser - albeit more weary and cynical - view.",
+      "score": 7,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k88s5fd",
+      "body": "That's what I was literally arguing tho. He's meant to be white knight in the sense that this is a character we tend to side with in other less thoughtful works focusing on the police but instead, is thrown in a environment where in fact, he is actually a terrible cop as pointed out by everyone in the film.",
+      "score": 3,
+      "parent_id": "t1_k88raeo"
+    },
+    {
+      "comment_id": "k89g4o4",
+      "body": "Some good points, but I think there’s some nuances missing.\n\nIt’s true that both Someserset and Mills bend/break the rules. Somerset getting the library information is balancing the line, and Mills kicking in the door is a clear violation. And while Somerset doesn’t approve of the fake eyewitness, he doesn’t rat out Mills either. Blue protects blue.\n\nI wouldn’t say the police force is apathetic as much as *Somerset* is apathetic. Mills is not apathetic. He is crude, lazy, almost simple-minded, but he cares. He cares in the worst way possible, but he hasn’t given up the way Somerset has. Indeed, that is what the bar scene is about. So far the film has been way more sympathetic to Somerset, who is patient, intelligent, authorative and even able to see John Doe as more than a lunatic (although one might the validity of this: is he saying this because he means it, or because it makes him sound empathetic?).\n\nBut in the bar scene, Mills calls Somerset out on his bullshit, saying that his apathy is just an excuse to give up. Mills is still an idealist at this point. A crude idealist, but an idealist nonetheless. He argues that Somerset isn’t giving up because he is apathetic, but convinces himself to be apathetic so he can give up. And Someset doesn’t exactly shut him down.\n\nBefore the final act, the two reconcile and realize they are, for once, in agreement. Thesis (Somerset) + antithesis (Mills) = synthesis.\n\nOf course, it all goes to shit, because John Doe has deviced a diabolical plan that preys on Mills’ weakness (although it is telling that this couldn’t work on the apathetic Somerset, who has no partner, maybe because he drives them away. The crude Mills is the one with a functional relationship). \n\nSo John Doe wins… or does he? Somerset agreeds to stay on the force instead of quitting. He is still a cynic who hates the world, but he now believes it’s worth fighting for. I think the bar scene convinced him more than the box scene did. If he hadn’t met Mills, he probably would have retired.\n\n(Small sidebar: the sloth victim was a drug-dealing pederast. That’s why the SWAT guy doesn’t feel bad for him. Whether it’s an appropriate punishment, is another discussion.)",
+      "score": 6,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k89syse",
+      "body": "I would make the argument that Se7en (if not tied with LA Confidential, at the apex of the '90's Neo-Noir movement within the Indiewave movement of the time, as probably the best of them through that Neo-Noir lens.  As in the Classic Noir movement, there is intense ambiguity as to who the \"good guys\" really are, and the idea of bent or crooked cops is a stable of this, although a li",
+      "score": 2,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k8bfhb4",
+      "body": "Is he a terrible cop because he lacks the skills and abilities to be a good cop, or is he a rural cop that came to the big city young and inexperienced in how detective work is done in this new environment he has places himself in? \n\nI thought they made this quite blatant. He was in over his head. He was out of his element. He was placed in situations he never imagined could be so brutal.\n\nIn the real world, he never would have been put in that situation. He would have had to work himself up the ranks.\n\nThat’s why the movie works. If they had a young cop that had lived his whole life in that area, he wouldn’t have been so overwhelmed and naive.",
+      "score": 1,
+      "parent_id": "t1_k88s5fd"
+    },
+    {
+      "comment_id": "k8bmshh",
+      "body": "I think he is a bad cop because he is naive and idealistic and because the point of his story is meant to be a critique of the cop archetype you would see in a lot of action/crime films. I never disagreed about the fact the fact that he couldn't grapple with the situation. I feel people are arguing with something that was never there to argue.",
+      "score": 1,
+      "parent_id": "t1_k8bfhb4"
+    },
+    {
+      "comment_id": "k8c1foy",
+      "body": "I think every one of your examples can have the exact opposite intention, in that the film is actually *critical* of institutions and rule-following in situations where homicidal madmen are on the loose. In line with a lot of Fincher's other work, there is an overt criticism of institutions that is made by \"over the top\" or flawed characters.\n\nI'm not sure how one could watch a film like Se7en and come away with the impression that the real villains here are the police, and not the absolutely insane psychokiller.",
+      "score": 1,
+      "parent_id": "t3_17puows"
+    },
+    {
+      "comment_id": "k8c3arm",
+      "body": "The police are literally the institution and the rule-following though. The reason why Mills and Somerset are able to get illegal information that ultimately quickens the process to the worst is because of another powerful institution. Also, kind the point of John Doe is that while he's psychopathic murderer and is in the wrong for what he does, he, unlike the police, is able to see that there is a much bigger problem with the world that goes beyond catching one serial killer. John Doe exists because of the evil that exists and some of those that he points out are the fact that there are lawyers who allow other murderers and rapists go free for profit and also, that the police department is able to casually sell the information of others just in the exact same way like  the bureau man was able to sell the information of John Doe when the film explicitly points the questionable morality of powerful institution being able to hold on to these things.\n\nI am not saying that John Doe is not the villain in this film. He is. What I am saying that there is another villain in this film that is even more outside, which is the society around them. The greed, the apathy, the ignorance and the corruption existing within our own systems of justice.",
+      "score": 1,
+      "parent_id": "t1_k8c1foy"
+    },
+    {
+      "comment_id": "k8c5k2m",
+      "body": "I think the point of Mills calling him out is to more specifically show that doing nothing at all about these problems in the world is just as complicent as it is for Mills to be ignorant of these problems. Both of them are wrong in their own ways. Somerset understands there is something wrong but he doesn't do much to stop it while Mills doesn't understand what he has to stop in the first place. I think that Somerset is also not completely apathetic. He does feel bothered by all the bad shit in the world. He does care about how all this bad shit is happening in the first place. I think what makes him apathetic is that he doesn't take any actions to change that. He only observes and disapproves of it.\n\nI also think that Mills to an extent is apathetic. He doesn't care to understand why a serial killer like John Doe could come to exist. To him, he is another criminal. The neighborhood pervert that needs to be imprisoned. He has a very narrow and rather useless form of idealism. He only cares about solving the problem once it has already happened. He doesn't do anything to make these things happen less but only to catch and punish the guy. And it is a similar case with the police. The police only see it as catching the criminals and they joke around the deformed bodies of victims and in the case of the swat team, they see their job as being something to be thrilling because they get to enter in the house of a child molester. And while there is definitely empathy shown in wanting to stop the bad guy because they do do bad things, they do not care to otherwise want to change things. To them, it is abour punishment of evil.\n\nAnd as for the ending, I like to believe that he decides to stay because of a mix of both John Doe and Mills' ideas. He needs to stay because he needs to hope for things to change. For him to see if he can do something while he's inside the corrupted city that he's in. And he understands through John Doe that greed, apathy and corruption are things abouthr world which exist but that instead of leaving he should still fight for it because it is good to want to change it. I think Doe wins in the sense that his grand plan has left an impact on Somerset but that Mills also won in that his idealism has encouraged him to fight in his own way to change the world.",
+      "score": 1,
+      "parent_id": "t1_k89g4o4"
+    },
+    {
+      "comment_id": "k8hy6ch",
+      "body": "You may wish to look into the PROMIS software (not the healthcare offering) and the Inslaw Affair for an interesting perspective on this kind of thing. It's a fascinating story but be warned, it's also a major rabbit hole that can wind up leading you down numerous blind alleys populated by all manner of wild-eyed Smoking Gun types.",
+      "score": 1,
+      "parent_id": "t1_k87uhqz"
+    },
+    {
+      "comment_id": "k8wk9h6",
+      "body": "If he was any other way, though, would he have fallen into the trap, or would the two of them have figured out together that not playing John Doe’s game would be way more effective than being curious about how the last two sins would play out?",
+      "score": 1,
+      "parent_id": "t1_k8bmshh"
+    },
+    {
+      "comment_id": "k8wlqn9",
+      "body": "Except they go not because they're curious. They go because Doe threatened to plead for being insane, which would remove him from punishment. And he fell into the trap because of his wrath (aka letting himself use the type of retributive justice that I was pointing out about him.)",
+      "score": 1,
+      "parent_id": "t1_k8wk9h6"
+    }
+  ]
+}

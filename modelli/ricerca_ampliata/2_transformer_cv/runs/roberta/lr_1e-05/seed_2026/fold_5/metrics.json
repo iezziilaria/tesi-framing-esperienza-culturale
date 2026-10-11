@@ -1,0 +1,179 @@
+{
+  "status": "complete",
+  "job": {
+    "family": "roberta-base",
+    "learning_rate": 1e-05,
+    "seed": 2026,
+    "fold": 5
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 1.1108006887268602,
+      "seconds": 12.155125141143799,
+      "macro_f1": 0.20734730673878746,
+      "accuracy": 0.36496350364963503,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.07692307692307693,
+          "recall": 0.047619047619047616,
+          "f1-score": 0.058823529411764705,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.3951612903225806,
+          "recall": 0.98,
+          "f1-score": 0.5632183908045977,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.9362799619373522,
+      "seconds": 12.11653184890747,
+      "macro_f1": 0.5291075896580484,
+      "accuracy": 0.5547445255474452,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3235294117647059,
+          "recall": 0.5238095238095238,
+          "f1-score": 0.4,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.559322033898305,
+          "recall": 0.66,
+          "f1-score": 0.6055045871559633,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.7272727272727273,
+          "recall": 0.48484848484848486,
+          "f1-score": 0.5818181818181818,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.6959565668775324,
+      "seconds": 12.12168025970459,
+      "macro_f1": 0.5755965916516376,
+      "accuracy": 0.6131386861313869,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.37037037037037035,
+          "recall": 0.47619047619047616,
+          "f1-score": 0.4166666666666667,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5671641791044776,
+          "recall": 0.76,
+          "f1-score": 0.6495726495726496,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.8372093023255814,
+          "recall": 0.5454545454545454,
+          "f1-score": 0.6605504587155964,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.56162657837073,
+      "seconds": 12.12830901145935,
+      "macro_f1": 0.5614363778298205,
+      "accuracy": 0.6204379562043796,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3684210526315789,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.35,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8,
+          "f1-score": 0.6557377049180327,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.8260869565217391,
+          "recall": 0.5757575757575758,
+          "f1-score": 0.6785714285714286,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.4545371757264723,
+      "seconds": 12.130361557006836,
+      "macro_f1": 0.6067858663260962,
+      "accuracy": 0.635036496350365,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.41379310344827586,
+          "recall": 0.5714285714285714,
+          "f1-score": 0.48,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.5757575757575758,
+          "recall": 0.76,
+          "f1-score": 0.6551724137931034,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.8809523809523809,
+          "recall": 0.5606060606060606,
+          "f1-score": 0.6851851851851852,
+          "support": 66.0
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.3900948972032781,
+      "seconds": 12.150853395462036,
+      "macro_f1": 0.6089786756453422,
+      "accuracy": 0.635036496350365,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.3939393939393939,
+          "recall": 0.6190476190476191,
+          "f1-score": 0.48148148148148145,
+          "support": 21.0
+        },
+        "intrinseco": {
+          "precision": 0.6,
+          "recall": 0.72,
+          "f1-score": 0.6545454545454545,
+          "support": 50.0
+        },
+        "ambiguo": {
+          "precision": 0.8636363636363636,
+          "recall": 0.5757575757575758,
+          "f1-score": 0.6909090909090909,
+          "support": 66.0
+        }
+      }
+    }
+  ],
+  "seconds": 84.35777354240417,
+  "predictions_hash": "45febba362a3c4da3f789e6dfb38ee0017cbf88151b2833605a9dbfbbf16180f",
+  "training_rows": 907,
+  "validation_rows": 137,
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+  "device": "Tesla T4"
+}

@@ -1,0 +1,340 @@
+{
+  "superati": true,
+  "errori": [],
+  "per_condizione": {
+    "con_rmovies": [
+      {
+        "fold": 1,
+        "condizione": "con_rmovies",
+        "gold_training": 518,
+        "gold_validation": 123,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 7,
+        "pilot_usati": 76,
+        "extra_disponibili": 344,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 344,
+        "extra_rmovies_usati": 239,
+        "extra_truefilm_usati": 105,
+        "training_totale": 938,
+        "classi_training": {
+          "strumentale": 204,
+          "intrinseco": 312,
+          "ambiguo": 422
+        },
+        "classi_validation": {
+          "strumentale": 14,
+          "intrinseco": 44,
+          "ambiguo": 65
+        },
+        "thread_unici_training": 254,
+        "thread_unici_validation": 59,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 2,
+        "condizione": "con_rmovies",
+        "gold_training": 496,
+        "gold_validation": 145,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 12,
+        "pilot_usati": 71,
+        "extra_disponibili": 344,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 344,
+        "extra_rmovies_usati": 239,
+        "extra_truefilm_usati": 105,
+        "training_totale": 911,
+        "classi_training": {
+          "strumentale": 193,
+          "intrinseco": 310,
+          "ambiguo": 408
+        },
+        "classi_validation": {
+          "strumentale": 23,
+          "intrinseco": 49,
+          "ambiguo": 73
+        },
+        "thread_unici_training": 259,
+        "thread_unici_validation": 54,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 3,
+        "condizione": "con_rmovies",
+        "gold_training": 522,
+        "gold_validation": 119,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 8,
+        "pilot_usati": 75,
+        "extra_disponibili": 344,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 344,
+        "extra_rmovies_usati": 239,
+        "extra_truefilm_usati": 105,
+        "training_totale": 941,
+        "classi_training": {
+          "strumentale": 201,
+          "intrinseco": 317,
+          "ambiguo": 423
+        },
+        "classi_validation": {
+          "strumentale": 17,
+          "intrinseco": 40,
+          "ambiguo": 62
+        },
+        "thread_unici_training": 250,
+        "thread_unici_validation": 63,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 4,
+        "condizione": "con_rmovies",
+        "gold_training": 524,
+        "gold_validation": 117,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 12,
+        "pilot_usati": 71,
+        "extra_disponibili": 344,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 344,
+        "extra_rmovies_usati": 239,
+        "extra_truefilm_usati": 105,
+        "training_totale": 939,
+        "classi_training": {
+          "strumentale": 201,
+          "intrinseco": 317,
+          "ambiguo": 421
+        },
+        "classi_validation": {
+          "strumentale": 15,
+          "intrinseco": 38,
+          "ambiguo": 64
+        },
+        "thread_unici_training": 255,
+        "thread_unici_validation": 58,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 5,
+        "condizione": "con_rmovies",
+        "gold_training": 504,
+        "gold_validation": 137,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 24,
+        "pilot_usati": 59,
+        "extra_disponibili": 344,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 344,
+        "extra_rmovies_usati": 239,
+        "extra_truefilm_usati": 105,
+        "training_totale": 907,
+        "classi_training": {
+          "strumentale": 193,
+          "intrinseco": 297,
+          "ambiguo": 417
+        },
+        "classi_validation": {
+          "strumentale": 21,
+          "intrinseco": 50,
+          "ambiguo": 66
+        },
+        "thread_unici_training": 265,
+        "thread_unici_validation": 48,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      }
+    ],
+    "senza_rmovies": [
+      {
+        "fold": 1,
+        "condizione": "senza_rmovies",
+        "gold_training": 518,
+        "gold_validation": 123,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 7,
+        "pilot_usati": 76,
+        "extra_disponibili": 105,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 105,
+        "extra_rmovies_usati": 0,
+        "extra_truefilm_usati": 105,
+        "training_totale": 699,
+        "classi_training": {
+          "strumentale": 105,
+          "intrinseco": 234,
+          "ambiguo": 360
+        },
+        "classi_validation": {
+          "strumentale": 14,
+          "intrinseco": 44,
+          "ambiguo": 65
+        },
+        "thread_unici_training": 246,
+        "thread_unici_validation": 59,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 2,
+        "condizione": "senza_rmovies",
+        "gold_training": 496,
+        "gold_validation": 145,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 12,
+        "pilot_usati": 71,
+        "extra_disponibili": 105,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 105,
+        "extra_rmovies_usati": 0,
+        "extra_truefilm_usati": 105,
+        "training_totale": 672,
+        "classi_training": {
+          "strumentale": 94,
+          "intrinseco": 232,
+          "ambiguo": 346
+        },
+        "classi_validation": {
+          "strumentale": 23,
+          "intrinseco": 49,
+          "ambiguo": 73
+        },
+        "thread_unici_training": 251,
+        "thread_unici_validation": 54,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 3,
+        "condizione": "senza_rmovies",
+        "gold_training": 522,
+        "gold_validation": 119,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 8,
+        "pilot_usati": 75,
+        "extra_disponibili": 105,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 105,
+        "extra_rmovies_usati": 0,
+        "extra_truefilm_usati": 105,
+        "training_totale": 702,
+        "classi_training": {
+          "strumentale": 102,
+          "intrinseco": 239,
+          "ambiguo": 361
+        },
+        "classi_validation": {
+          "strumentale": 17,
+          "intrinseco": 40,
+          "ambiguo": 62
+        },
+        "thread_unici_training": 242,
+        "thread_unici_validation": 63,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 4,
+        "condizione": "senza_rmovies",
+        "gold_training": 524,
+        "gold_validation": 117,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 12,
+        "pilot_usati": 71,
+        "extra_disponibili": 105,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 105,
+        "extra_rmovies_usati": 0,
+        "extra_truefilm_usati": 105,
+        "training_totale": 700,
+        "classi_training": {
+          "strumentale": 102,
+          "intrinseco": 239,
+          "ambiguo": 359
+        },
+        "classi_validation": {
+          "strumentale": 15,
+          "intrinseco": 38,
+          "ambiguo": 64
+        },
+        "thread_unici_training": 247,
+        "thread_unici_validation": 58,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      },
+      {
+        "fold": 5,
+        "condizione": "senza_rmovies",
+        "gold_training": 504,
+        "gold_validation": 137,
+        "pilot_disponibili": 83,
+        "pilot_esclusi_per_thread": 24,
+        "pilot_usati": 59,
+        "extra_disponibili": 105,
+        "extra_esclusi_per_thread": 0,
+        "extra_usati": 105,
+        "extra_rmovies_usati": 0,
+        "extra_truefilm_usati": 105,
+        "training_totale": 668,
+        "classi_training": {
+          "strumentale": 94,
+          "intrinseco": 219,
+          "ambiguo": 355
+        },
+        "classi_validation": {
+          "strumentale": 21,
+          "intrinseco": 50,
+          "ambiguo": 66
+        },
+        "thread_unici_training": 257,
+        "thread_unici_validation": 48,
+        "shared_threads_train_validation": 0,
+        "test_examples_in_training": 0,
+        "test_examples_in_validation": 0,
+        "test_threads_in_training": 0,
+        "test_threads_in_validation": 0,
+        "validation_solo_gold": true
+      }
+    ]
+  }
+}

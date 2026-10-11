@@ -1,0 +1,41 @@
+{
+  "workflow_version": 1,
+  "protocol": {
+    "kind": "baselines",
+    "families": [
+      "logistic_regression",
+      "linear_svm"
+    ],
+    "C_values": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "labels": [
+      "strumentale",
+      "intrinseco",
+      "ambiguo"
+    ],
+    "folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seed": 42,
+    "selection": "mean_fold_macro_f1; exact ties prefer smaller C"
+  },
+  "data_hashes": {
+    "dev.csv": "6fe356d61b30900f4908e12b178f352b8ffe491f5aaf19d4e88e53fdcc171cab",
+    "supplementare.csv": "89f336b4f36691c1401ba9c8c06447c33231b61631d02ac3fbbcafbcc506ccea"
+  },
+  "code_hash": "e1d3f0114d13061382e091b04ee1875686d1f2d5977a8804cb4060877116e266",
+  "python": "3.13.16",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0"
+  }
+}

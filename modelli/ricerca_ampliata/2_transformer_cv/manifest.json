@@ -1,0 +1,60 @@
+{
+  "workflow_version": 1,
+  "protocol": {
+    "kind": "transformers",
+    "models": [
+      "roberta-base",
+      "distilroberta-base"
+    ],
+    "learning_rates": [
+      1e-05,
+      2e-05,
+      5e-05
+    ],
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "labels": [
+      "strumentale",
+      "intrinseco",
+      "ambiguo"
+    ],
+    "max_epochs": 6,
+    "batch_size": 16,
+    "max_length": 256,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.06,
+    "mixed_precision": true,
+    "weighted_loss": true,
+    "final_seed": 42,
+    "model_revisions": {
+      "roberta-base": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "distilroberta-base": "fb53ab8802853c8e4fbdbcd0529f21fc6f459b2b"
+    },
+    "selection": "mean_macro_f1_by_common_epoch; ties: fewer epochs then smaller learning rate"
+  },
+  "data_hashes": {
+    "dev.csv": "6fe356d61b30900f4908e12b178f352b8ffe491f5aaf19d4e88e53fdcc171cab",
+    "supplementare.csv": "89f336b4f36691c1401ba9c8c06447c33231b61631d02ac3fbbcafbcc506ccea"
+  },
+  "code_hash": "99da741a5dc2ac40e094adec7f5b0115bc0c6472442b1b2b9958cb62aded5694",
+  "python": "3.13.15",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.1",
+    "cuda": "13.0"
+  }
+}

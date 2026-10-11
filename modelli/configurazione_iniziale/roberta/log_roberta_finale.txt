@@ -1,0 +1,24 @@
+/Users/ilariaiezzi_/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:260: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.out_proj.bias', 'classifier.out_proj.weight', 'classifier.dense.weight', 'classifier.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+dispositivo: cpu
+epoca 1/4   loss train 1.079   (405s)
+epoca 2/4   loss train 0.832   (408s)
+epoca 3/4   loss train 0.591   (415s)
+epoca 4/4   loss train 0.363   (401s)
+
+--- modello finale (roberta-base, 4 epoche), training 1068 commenti ---
+tempo di training   27.2 minuti
+
+--- valutazione sul test (159 commenti), UNA volta sola ---
+               precision    recall        f1   support
+strumentale         0.47      0.73      0.57        22
+intrinseco          0.72      0.76      0.74        62
+ambiguo             0.93      0.75      0.83        75
+
+macro-F1 test   0.714
+accuracy test   0.748
+
+scritto in /Users/ilariaiezzi_/Desktop/TESI_Framing_esperienza_culturale/modelli/finale_roberta
+

@@ -1,0 +1,42 @@
+{
+  "workflow": "roberta_one_validation_fold_early_stopping_v1",
+  "source_cv_manifest_hash": "6ea88534ba4cca4395ca3319ffc2781df52310b6cec7d98af63896368b798b43",
+  "data_hashes": {
+    "dev.csv": "6fe356d61b30900f4908e12b178f352b8ffe491f5aaf19d4e88e53fdcc171cab",
+    "supplementare.csv": "89f336b4f36691c1401ba9c8c06447c33231b61631d02ac3fbbcafbcc506ccea"
+  },
+  "settings": {
+    "validation_fold": 1,
+    "max_epochs": 30,
+    "patience": 5,
+    "learning_rate": 5e-05,
+    "seed": 42,
+    "model_name": "roberta-base",
+    "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "batch_size": 16,
+    "max_length": 256,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.06,
+    "mixed_precision": true,
+    "weighted_loss": true,
+    "monitor": "validation_macro_f1",
+    "scheduler": "linear_over_max_epochs",
+    "exact_ties": "keep_earlier_epoch"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "gpu": "Tesla T4",
+    "cuda": "12.8",
+    "versions": {
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.0",
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.1"
+    }
+  },
+  "training_ids_hash": "d8d025eb92065f454587a5e27eb4db4d75c7af3f16ccd505325ba02e571c520f",
+  "validation_ids_hash": "916d160757c25c38115998426727a21727d939f433488422238c1848e8a8f220",
+  "code_hash": "b4234627d381805f6b68f221f2d72b6ac4077dc376049af40ad825967dc7be9c"
+}

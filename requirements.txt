@@ -1,0 +1,8 @@
+# Versioni usate per i risultati della tesi (Python 3.11.5, macOS, CPU)
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.13.1
+scikit-learn==1.4.2
+matplotlib==3.7.2
+torch==2.11.0
+transformers==4.32.1

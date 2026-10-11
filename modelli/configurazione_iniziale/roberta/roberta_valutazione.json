@@ -1,0 +1,79 @@
+{
+  "nota_test": "Il test (159 commenti) era gia' stato usato negli esperimenti preliminari.",
+  "modello": "roberta-base",
+  "epoche": 4,
+  "schedule_su_epoche": 6,
+  "learning_rate": 2e-05,
+  "max_len": 256,
+  "batch_size": 16,
+  "pesi_classe": {
+    "strumentale": 1.633,
+    "intrinseco": 0.989,
+    "ambiguo": 0.727
+  },
+  "n_training": 1068,
+  "training_per_fonte": {
+    "gold": 641,
+    "extra": 344,
+    "pilot": 83
+  },
+  "report_test": {
+    "strumentale": {
+      "precision": 0.47058823529411764,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.5714285714285714,
+      "support": 22.0
+    },
+    "intrinseco": {
+      "precision": 0.7230769230769231,
+      "recall": 0.7580645161290323,
+      "f1-score": 0.7401574803149606,
+      "support": 62.0
+    },
+    "ambiguo": {
+      "precision": 0.9333333333333333,
+      "recall": 0.7466666666666667,
+      "f1-score": 0.8296296296296296,
+      "support": 75.0
+    },
+    "accuracy": 0.7484276729559748,
+    "macro avg": {
+      "precision": 0.7089994972347914,
+      "recall": 0.744001303356142,
+      "f1-score": 0.7137385604577206,
+      "support": 159.0
+    },
+    "weighted avg": {
+      "precision": 0.7873189333788667,
+      "recall": 0.7484276729559748,
+      "f1-score": 0.7590151859948324,
+      "support": 159.0
+    }
+  },
+  "macro_f1_test": 0.7137385604577206,
+  "matrice_confusione_test": {
+    "categorie": [
+      "strumentale",
+      "intrinseco",
+      "ambiguo"
+    ],
+    "valori": [
+      [
+        16,
+        4,
+        2
+      ],
+      [
+        13,
+        47,
+        2
+      ],
+      [
+        5,
+        14,
+        56
+      ]
+    ]
+  },
+  "minuti_training": 27.2
+}

@@ -1,0 +1,79 @@
+{
+  "nota_test": "Il test (159 commenti) era gia' stato usato negli esperimenti preliminari.",
+  "modello": "distilroberta-base",
+  "epoche": 5,
+  "schedule_su_epoche": 6,
+  "learning_rate": 2e-05,
+  "max_len": 256,
+  "batch_size": 16,
+  "pesi_classe": {
+    "strumentale": 1.633,
+    "intrinseco": 0.989,
+    "ambiguo": 0.727
+  },
+  "n_training": 1068,
+  "training_per_fonte": {
+    "gold": 641,
+    "extra": 344,
+    "pilot": 83
+  },
+  "report_test": {
+    "strumentale": {
+      "precision": 0.5625,
+      "recall": 0.4090909090909091,
+      "f1-score": 0.47368421052631576,
+      "support": 22.0
+    },
+    "intrinseco": {
+      "precision": 0.6111111111111112,
+      "recall": 0.8870967741935484,
+      "f1-score": 0.7236842105263158,
+      "support": 62.0
+    },
+    "ambiguo": {
+      "precision": 0.9056603773584906,
+      "recall": 0.64,
+      "f1-score": 0.75,
+      "support": 75.0
+    },
+    "accuracy": 0.7044025157232704,
+    "macro avg": {
+      "precision": 0.693090496156534,
+      "recall": 0.6453958944281525,
+      "f1-score": 0.6491228070175439,
+      "support": 159.0
+    },
+    "weighted avg": {
+      "precision": 0.7433233785583376,
+      "recall": 0.7044025157232704,
+      "f1-score": 0.7015061238000662,
+      "support": 159.0
+    }
+  },
+  "macro_f1_test": 0.6491228070175439,
+  "matrice_confusione_test": {
+    "categorie": [
+      "strumentale",
+      "intrinseco",
+      "ambiguo"
+    ],
+    "valori": [
+      [
+        9,
+        9,
+        4
+      ],
+      [
+        6,
+        55,
+        1
+      ],
+      [
+        1,
+        26,
+        48
+      ]
+    ]
+  },
+  "minuti_training": 33.7
+}

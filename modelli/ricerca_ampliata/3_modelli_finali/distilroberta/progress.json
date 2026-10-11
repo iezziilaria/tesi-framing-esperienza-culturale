@@ -1,0 +1,31 @@
+{
+  "status": "partial",
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 1.0668372858816118,
+      "seconds": 7.712362766265869
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.8636459552530033,
+      "seconds": 7.696565389633179
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.6372434688148214,
+      "seconds": 7.777730703353882
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.4679196652636599,
+      "seconds": 7.782408714294434
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.34641113432485665,
+      "seconds": 7.699723243713379
+    }
+  ],
+  "resume_note": "If interrupted, this fold restarts; completed folds remain saved."
+}

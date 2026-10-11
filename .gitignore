@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+modelli/configurazione_iniziale/roberta/roberta_checkpoint/
+data/archivio_torrent/
+modelli/ricerca_ampliata/**/*.safetensors
+.spyproject/

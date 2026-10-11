@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "job": {
+    "family": "linear_svm",
+    "C": 10.0,
+    "fold": 2,
+    "seed": 42
+  },
+  "epochs": [
+    {
+      "macro_f1": 0.4732285258601048,
+      "accuracy": 0.5448275862068965,
+      "per_class": {
+        "strumentale": {
+          "precision": 0.4,
+          "recall": 0.2608695652173913,
+          "f1-score": 0.3157894736842105,
+          "support": 23.0
+        },
+        "intrinseco": {
+          "precision": 0.42857142857142855,
+          "recall": 0.42857142857142855,
+          "f1-score": 0.42857142857142855,
+          "support": 49.0
+        },
+        "ambiguo": {
+          "precision": 0.6419753086419753,
+          "recall": 0.7123287671232876,
+          "f1-score": 0.6753246753246753,
+          "support": 73.0
+        }
+      },
+      "epoch": 1
+    }
+  ],
+  "seconds": 0.08910989761352539,
+  "predictions_hash": "be7381542325c220bfda1ec6e0ea737e0c0d64e9963088ff0d21cfd3a005b076",
+  "training_rows": 911,
+  "validation_rows": 145
+}

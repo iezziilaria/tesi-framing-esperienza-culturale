@@ -1,0 +1,60 @@
+{
+  "post_id": "17xjtmh",
+  "title": "Is there a word to describe this technique?",
+  "commenti": [
+    {
+      "comment_id": "k9ns3hq",
+      "body": "[removed]",
+      "score": 1,
+      "parent_id": "t3_17xjtmh"
+    },
+    {
+      "comment_id": "k9o0k7r",
+      "body": "[removed]",
+      "score": 1,
+      "parent_id": "t3_17xjtmh"
+    },
+    {
+      "comment_id": "k9oa40r",
+      "body": "Hmm, I would maybe call it a unique, one-take version of a J cut? Usually a scene like this would have the audio from the next scene start and then the camera would cut to the scene that the audio is coming from, but I've never seen it done like this in a single camera pan.",
+      "score": 7,
+      "parent_id": "t3_17xjtmh"
+    },
+    {
+      "comment_id": "k9pcd8j",
+      "body": "Thanks, just learned what J cut is. \n\nI also don't think I've seen it done this way before, or if I have, it would have been a single time thing.",
+      "score": 2,
+      "parent_id": "t1_k9oa40r"
+    },
+    {
+      "comment_id": "k9peoug",
+      "body": "That's a nice transition from non-diegetic sound to diegetic sound.\n\nOne definition of diegetic sound is \"the source of the sound is visible onscreen\". So initially, the disembodied voice is non-diegetic, then becomes diegetic. \n\nI can think of another example of a similar shot, from Godard's Weekend (1967). Some hippie radicals are hiking through a forest, and the soundtrack is a psychedelic-sounding drum solo. As the camera follows the hippies through the forest, eventually they walk past a hippie drummer dude, with his drum kit set up in the middle of the forest, bashing away. What we assumed was non-diegetic soundtrack was actually only diegetic sound.",
+      "score": 8,
+      "parent_id": "t3_17xjtmh"
+    },
+    {
+      "comment_id": "k9qlvjm",
+      "body": "What an interesting shot. Had it been made in the last ten years or so, I would've thought it was a simple digital/composite wipe. But with it being the 90s, I'm wondering if it's not actually practical in some way.\n\nHow I would have done it would be to film the kids going up the hill, run off camera (a very deliberate decision) so they can get in their seated positions with the old man. Then on a cue by an off-camera assistant, the kid begins delivering his line, which is the last line we hear.\n\nAfter they're done acting the scene, but before cutting audio/camera, the kid resumes delivering his lines, so the audio has continuity: same place, same position, same background noise. \n\nIn post, they move these audio to the *front* (them climbing the hill), and the transition is seamless.\n\na similar thing was done in the opening sequence of *About Last Night,* with Jim Belushi telling Rob Lowe his story vignetted throughout multiple locations, but seemingly it's a \"one take\" audio stream. [https://youtu.be/\\_J3fZVSTSoM?si=11SZ2H5PCgPdeeUC](https://youtu.be/_J3fZVSTSoM?si=11SZ2H5PCgPdeeUC) (nsfw subject matter)\n\nLike how Hitchcocks' *Rope* attempted (to an extent) to look like a single take.\n\nAnother example similar to yours could be in *Twister* (1996). There is a helicopter scene and Bill Paxton's dialogue lines up with his lips almost perfectly. It blew me away back then, but there are a few ways of accomplishing it, most easily being ADR. [https://youtu.be/YhwOPNw1XfE?si=IFiMITbeoG6LlJ3l&t=50](https://youtu.be/YhwOPNw1XfE?si=IFiMITbeoG6LlJ3l&t=50)\n\nHowever, I do NOT think your clip was ADR. The kid's lips move too perfectly. That's why I think it was filmed regularly, then once the kids have seated, they record ALL the dialogue, but with the final lines and looking off-screen taking priority.",
+      "score": 4,
+      "parent_id": "t3_17xjtmh"
+    },
+    {
+      "comment_id": "k9qm22b",
+      "body": "the \"go to\" for something like that is (or used to be) *Blazing Saddles*, with the score turning into a random orchestra in the middle of the desert",
+      "score": 1,
+      "parent_id": "t1_k9peoug"
+    },
+    {
+      "comment_id": "k9rdc86",
+      "body": "That’s how I’d describe - it a transition from non-diegetic narration to diegetic narration.",
+      "score": 1,
+      "parent_id": "t1_k9peoug"
+    },
+    {
+      "comment_id": "k9rw042",
+      "body": "Yes this is a great example and one that sticks in my brain too.",
+      "score": 1,
+      "parent_id": "t1_k9peoug"
+    }
+  ]
+}

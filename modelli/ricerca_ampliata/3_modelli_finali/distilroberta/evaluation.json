@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "final_manifest_hash": "99f5793fe887719f6da7abf6cc6d8d666a97f4018f44ea9c9f34ef7b7b9f4ae9",
+    "selected": {
+      "family": "distilroberta-base",
+      "learning_rate": 2e-05,
+      "epoch": 5,
+      "mean_macro_f1": 0.6379943988010973,
+      "fold_std": 0.06888081105869528,
+      "seed_std": 0.02730788975546932,
+      "fold_means": [
+        0.729122999781378,
+        0.6644472746639255,
+        0.6530850094902371,
+        0.5499164595986987,
+        0.5934002504712468
+      ],
+      "seed_means": [
+        0.6184066597157493,
+        0.6691882964054378,
+        0.6263882402821047
+      ]
+    },
+    "test_hash": "adc29fbddd82df5f5a4a7a85502680d2115cb42da5b265512c919a4b82cd2141",
+    "seed": 42,
+    "test_note": "The existing test set was already used in preliminary experiments. It is not a retrospectively untouched holdout."
+  },
+  "report": {
+    "strumentale": {
+      "precision": 0.3888888888888889,
+      "recall": 0.3181818181818182,
+      "f1-score": 0.35,
+      "support": 22.0
+    },
+    "intrinseco": {
+      "precision": 0.6493506493506493,
+      "recall": 0.8064516129032258,
+      "f1-score": 0.7194244604316546,
+      "support": 62.0
+    },
+    "ambiguo": {
+      "precision": 0.875,
+      "recall": 0.7466666666666667,
+      "f1-score": 0.8057553956834532,
+      "support": 75.0
+    },
+    "accuracy": 0.710691823899371,
+    "macro avg": {
+      "precision": 0.6377465127465127,
+      "recall": 0.6237666992505702,
+      "f1-score": 0.6250599520383693,
+      "support": 159.0
+    },
+    "weighted avg": {
+      "precision": 0.7197502881465146,
+      "recall": 0.710691823899371,
+      "f1-score": 0.7090312655535949,
+      "support": 159.0
+    }
+  },
+  "training_rows": 1068,
+  "test_rows": 159,
+  "training_history": [
+    {
+      "epoch": 1,
+      "training_loss": 1.0668372858816118,
+      "seconds": 7.712362766265869
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.8636459552530033,
+      "seconds": 7.696565389633179
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.6372434688148214,
+      "seconds": 7.777730703353882
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.4679196652636599,
+      "seconds": 7.782408714294434
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.34641113432485665,
+      "seconds": 7.699723243713379
+    }
+  ],
+  "device": "Tesla T4"
+}
